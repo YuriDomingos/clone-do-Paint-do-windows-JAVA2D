@@ -89,7 +89,7 @@ public class Cenario  extends JPanel implements Runnable{
          
          this.setBackground(Color.WHITE);
          
-         graphics2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);  // Esta é linha que deixa o desenho mais puro cota geraldo 
+         graphics2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);  // Esta é linha que deixa o desenho mais puro 
          graphics2D.setFont(new Font("Serief", Font.BOLD,25));
          graphics2D.fill(new Rectangle2D.Double(80,15,200,50));
          graphics2D.setColor(Color.YELLOW);
